@@ -35,5 +35,17 @@ describe('Giffy', function() {
 
 			expect(giffy.img).to.equal(mockImg);
 		});
+
+		it('should read manifest file from data-manifest img attribute', function() {
+			var giffy,
+				mockImg = document.createElement('img'),
+				manifestUrl = 'manifest.json';
+
+			mockImg.setAttribute('data-manifest', manifestUrl)
+			mockConfig.img = mockImg;			
+			giffy = new Giffy(mockConfig);
+
+			expect(giffy.manifest).to.equal(manifestUrl);
+		});
 	});
 });
