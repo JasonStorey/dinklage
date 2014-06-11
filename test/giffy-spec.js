@@ -11,9 +11,6 @@ describe('Giffy', function() {
 
 	});
 
-	afterEach(function() {
-	});
-
 	describe('constructor', function() {
 		it('should store img element when present in config', function() {
 			var giffy,
