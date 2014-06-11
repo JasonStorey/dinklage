@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "browserify test/giffy-spec.js --standalone tests > test/resources/test.bundle.js; mocha-phantomjs test/resources/test-runner.html"
+    "test": "browserify test/resources/test-config.js --standalone tests > test/resources/test.bundle.js; mocha-phantomjs test/resources/test-runner.html"
   },
   "repository": {
     "type": "git",

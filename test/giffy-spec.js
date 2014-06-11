@@ -1,28 +1,17 @@
-var chai = require('chai'),
-	sinon = require('sinon'),
-	sinonChai = require("sinon-chai"),
-	Giffy = require('../src/giffy'),
-	expect = chai.expect;
-
-chai.use(sinonChai);
+var	Giffy = require('../src/giffy.js');
 
 describe('Giffy', function() {
 
-	var mockConfig,
-		sandbox,
-		consoleLogStub;
+	var mockConfig;
 
 	beforeEach(function() {
 		mockConfig = {
 			img: ''
 		};
 
-	    sandbox = sinon.sandbox.create();
-        consoleLogStub = sandbox.stub(window.console, "log");
 	});
 
 	afterEach(function() {
-    	sandbox.restore();
 	});
 
 	describe('constructor', function() {
