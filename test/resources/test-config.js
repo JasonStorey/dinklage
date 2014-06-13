@@ -7,5 +7,5 @@ global.sinon = sinon;
 
 chai.use(sinonChai);
 
-require('../giffy-spec.js');
+require('../dinklage-spec.js');
 require('../loader-spec.js');

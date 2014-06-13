@@ -1,5 +1,5 @@
 {
-  "name": "giffy",
+  "name": "dinklage",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/JasonStorey/giffy.git"
+    "url": "git://github.com/JasonStorey/dinklage.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JasonStorey/giffy/issues"
+    "url": "https://github.com/JasonStorey/dinklage/issues"
   },
-  "homepage": "https://github.com/JasonStorey/giffy",
+  "homepage": "https://github.com/JasonStorey/dinklage",
   "devDependencies": {
     "browserify": "^4.1.9",
     "chai": "^1.9.1",
